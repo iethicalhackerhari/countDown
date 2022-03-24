@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    
+    background-image: url("./stars.jpg");
+    background-size: cover;
+    background-position: center,center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.counter{
+    margin-top: 3rem;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    max-height: 100vh;
+}
+.counter h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+
+
+}
+.counter h1{
+    border-bottom: 1px solid whitesmoke;
+    
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center !important;
+    
+}
+.main-text{
+    margin-top: -5rem;
+    padding: 1.5rem;
+    padding-bottom: 0.8rem;
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    animation: colorWash 3s infinite ;
+    
+}
+@keyframes colorWash {
+    from {border-bottom-color: #111;}
+    42%{border-bottom-color: rgb(255, 255, 255);}
+    to {border-bottom-color: #111;}
+  }
+  
+.row{
+    margin-left: 0;
+}
+.page-footer{
+    position: fixed;
+    bottom: 0;
+    min-width: 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 1px solid rgba(255, 253, 253,0.3);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
